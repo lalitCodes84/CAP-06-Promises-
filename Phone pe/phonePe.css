@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/PhonePe_Logo.svg/1280px-PhonePe_Logo.svg.png");
+    background-position-x: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #processingScreen {
+    color: #2196F3;
+  }
+  
+  #successScreen {
+    margin: auto;
+    color: #4CAF50;
+  }
+  
+  #failureScreen {
+    margin: auto;
+    color: #FF5722;
+  }
+  
+  img {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+  }
+  #makePaymentButton{
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: #2196F3;
+    border-radius: 50px;
+  }
+
+  #makePaymentButton:hover{
+    cursor: pointer;
+    padding: 15px;
+    color: white;
+    background-color: #2196F3;
+    border-radius: 60px;
+  }
+  

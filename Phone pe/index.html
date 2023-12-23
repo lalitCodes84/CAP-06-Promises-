@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="phonePe.css">
+  <title>PhonePe Payment System</title>
+</head>
+<body>
+
+  <button id="makePaymentButton" onclick="makePayment()">Make Payment</button>
+  
+  <div id="processingScreen" class="hidden">
+    <p>Processing...</p>
+  </div>
+
+  <div id="successScreen" class="hidden">
+    <p>Payment Successful!</p>
+    <img src="https://cdn-icons-png.flaticon.com/512/148/148767.png" alt="Success Icon">
+  </div>
+
+  <div id="failureScreen" class="hidden">
+    <p>Payment Failed!</p>
+    <img src="https://www.freeiconspng.com/thumbs/failure-icon/failure-icon-2.png" alt="Failure Icon">
+  </div>
+
+  <script src="phonePe.js"></script>
+</body>
+</html>

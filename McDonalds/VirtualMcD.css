@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdSsyHoaJudgV38SmiEINytbh5mWdEW5ebg&usqp=CAU");
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+   
+  }
+  
+  #foodItems {
+    margin-top: 20px;
+    color: aliceblue;
+  }
+  
+  #orderResult {
+    margin-top: 20px;
+  }
+  
+  .foodImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .orderId {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
